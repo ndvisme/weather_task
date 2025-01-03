@@ -19,7 +19,7 @@ redis_conn = Redis(connection_pool=REDIS_POOL)
 TOP_CITIES = [
 #    "Tokyo", "Delhi", "Shanghai", "São Paulo", 
 #    "Mexico City", "Cairo", "Mumbai", "Beijing",
-    #"New York", "London"
+    "New York", "London"
 ]
 
 # This data doesn't change. Let the cache live

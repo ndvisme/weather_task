@@ -2,7 +2,7 @@
 
 ## How to run
 ```bash
-docker compose up
+docker compose up --build
 ```
 ## Architecture
 ![Alt text](archi.png)

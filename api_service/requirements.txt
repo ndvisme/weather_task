@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+redis
+rq
+httpx
+prometheus_client
+fastapi-cache2

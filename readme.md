@@ -13,7 +13,7 @@ docker compose up --build
     - Reason: 
         - Its fast & pretty easy to set up (compared to its counter parts)
         - I wanted to check it out
-        - Nice way to add validations using pydent
+        - Nice way to add validations using pydantic
 - Package:
     - Docker compose
     - Reason: Worked with it in the past, pretty common & good for this case

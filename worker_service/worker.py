@@ -51,7 +51,6 @@ class WeatherAPI:
             geocoding_url = f"https://geocoding-api.open-meteo.com/v1/search?name={city}&count=1"
             geo_response = self.client.get(geocoding_url)
             geo_data = geo_response.json()
-            logger.info(f"geo_data: {geo_data}")
 
             if "results" not in geo_data or not geo_data["results"]:
                 logger.error(f"No coordinates found for city: {city}")
